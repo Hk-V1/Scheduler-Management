@@ -84,7 +84,7 @@ class MongoLogDocument:
             "started_at": started_at or datetime.utcnow(),
             "completed_at": completed_at,
             "duration": duration
-        }: JobType
+        }
     frequency: FrequencyType
     frequency_config: Dict[str, Any]
     
